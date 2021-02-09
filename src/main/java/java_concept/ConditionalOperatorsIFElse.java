@@ -15,11 +15,11 @@ public class ConditionalOperatorsIFElse {
 			System.out.println("b is greater than a");
 		}
 
-		if (false) { // Dead code
-			System.out.println("Hii");
-		} else { // Dead code
-			System.out.println("Bye...");
-		}
+//		if (false) { // Dead code
+//			System.out.println("Hii");
+//		} else { // Dead code
+//			System.out.println("Bye...");
+//		}
 
 		//inside if else if there true or false it will always print it 
 		
@@ -47,9 +47,9 @@ public class ConditionalOperatorsIFElse {
 			System.out.println("total is not fee");
 		}
 
-		if (12 == 12.22) {
-			System.out.println("Hello");
-		}
+//		if (12 == 12.22) {
+//			System.out.println("Hello");
+//		}
 
 		// > < >= <= == !=
 		int c = 2000;
@@ -140,9 +140,10 @@ public class ConditionalOperatorsIFElse {
 			System.out.println("please pass the correct browser name");
 		}
 
-		// 3. switch-case:
-        // this statement is working with exact matching condition its not traveling among the condition it doesnt matter in what line comes the matching 
-		//condition it will jump right into it 
+//		 3. switch-case:
+//         this statement is working with exact matching condition its not traveling among the condition it doesnt matter in what line comes the matching 
+//		condition it will jump right into it 
+		
 		switch (browser) {
 		case "chrome":
 			System.out.println("launch chrome");
