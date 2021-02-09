@@ -1,0 +1,53 @@
+A Set is a Collection that cannot contain duplicate elements. 
+It models the mathematical set abstraction. 
+The Set interface contains only methods inherited 
+from Collection and adds the restriction that duplicate elements are prohibited.
+
+
+list is order base collection -- dynamic array
+for example arraylist vector linkedlist
+
+set interface 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ArrayList linkedlist --->
+ differences arraylist is implementing only list interface, linkedlist is implementing list and queue interface both
+ random access is possible arraylist but is not possible in linkedlist 
+ both are allow dublicate elements, null element and both are not thread safe 
+ 
+ hashmap doesn't maintane order its key and value pair format hash map random acces possible dublicate not, null value yes, thread safety no
+ vector everything is possible even its threat safe it means its synchronized 
+ 
+ hastable and hashmap differences is 
+ hashtable is null value is allowed in hashmap but its not allowed in hashtable 
+ hashtable is synchcronized but hashmap not hahsmap is not thread safe 
+
+properties file is also kind a collection in java its maintane the value with key and value pair format no ordering no indexing 
+random acces is possible and its thread safety its extending hashtable
+
+copyonwritearraylist method to make arraylist threadsafety
+concurrenthashmap is the way to make hahsmap threadsafety
+
+there 4 way to achieve synchronization in java 
+1 synchronization key word passing along with method or class name 
+2 volatile keyword 
+3 Atomic variable
+4 final keyword
+
+
+Collection   
+ArrayList 
+linkedlist
+hashSet
+
+
+
+
+
+
+
+
+
+
