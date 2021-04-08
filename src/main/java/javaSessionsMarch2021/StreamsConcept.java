@@ -40,6 +40,7 @@ public class StreamsConcept {
     System.out.println(ConsoleColors.BLUE_BOLD + "-----------");
     
     IntStream.iterate(0, a -> a+3).limit(13).forEach(a -> System.out.println(a));
+    //this is actually a function which is output equal to the 13 times increased 3 
     
     System.out.println(ConsoleColors.BLUE_BOLD + "-----------");
     
@@ -49,7 +50,7 @@ public class StreamsConcept {
     // in that case we can use to achieve more performance more faster to get all the elements 
     // and parallelStream is not maintain the order 
     
-    //this is actually a function which is output equal to the 13 times increased 3 
+   
     //before adding stream function to the jdk 1.8 it wasn't available in java 
     // we could see them before in kotlin or scala 
     // one of the use case of using intStream iterator interface in selenium 
