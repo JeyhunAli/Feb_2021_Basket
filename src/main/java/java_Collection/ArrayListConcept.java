@@ -10,6 +10,10 @@ public class ArrayListConcept {
 		
 		  // create an object of array list
 		// this is row type arraylist because we can add all the type data type and we will get yellow warning 
+		//virtual capacity by default is 10 in arraylist but we can change it to another number 
+		//for example  ArrayList al = new ArrayList<>(20);
+		
+		
 	      ArrayList al = new ArrayList<>();
 	      System.out.println("Initial size of al: " + al.size());
 
@@ -22,6 +26,7 @@ public class ArrayListConcept {
 	      al.add("F");
 	      al.add(1, "A2");
 	      al.add(2);
+	      
 	   
 	      System.out.println("Size of al after additions: " + al.size());
 	      System.out.println("in the second position is: " + al.get(2));
@@ -59,6 +64,7 @@ public class ArrayListConcept {
 	      System.out.println("Size of al after additions: " + al1.size());
 	      System.out.println("in the second position is: " + al1.get(2));
 	  //    System.out.println(al.get(8));     java.lang.IndexOutOfBoundsException: 
+	      
 	  //    negative indexing also           java.lang.IndexOutOfBoundsException: 
 
 	      

@@ -137,7 +137,9 @@ public class Data_Types_In_Java {
 	System.out.println(str + " " + str2 );
 	
 	
-
+//there are decimal numbers and octal numbers 
+// the base of the decimal numbers is 10  
+// the base of the octal numbers is 8     
 	byte bc = 077;
 	System.out.println("octal number is --->>> " +bc);
 

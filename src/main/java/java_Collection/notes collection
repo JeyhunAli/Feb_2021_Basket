@@ -1,3 +1,105 @@
+Collection Interface is the root of the collection framework most of the interfaces extending this interface 
+only map interface is not extending collection interface
+Collection Interface --->> set, list, queue
+----------------------------------------------------------------------------------------
+
+set interface -> hashset, linkedhashset, treeset all these tree interfaces implementing directly set interface only treeset first implementing sortedset interface 
+and sortedset interface is extending set interface
+Doesn’t define an order for the 
+elements hence index-based 
+search is not supported
+Doesn’t contain duplicates
+----------------------------------------------------------------------------------------
+list interface -> Arraylist, vector, linkedlist these two interfaces implementing directly list interface but linkedlist along with list interface its also implementing 
+queue interface as well 
+Contains ordered elements
+May include duplicates
+Supports the index-based 
+search, random access but 
+elements can be easily inserted 
+irrespective of the position.
+because of the ordering concept 
+list interface allow for random access
+----------------------------------------------------------------------------------------
+queue interface -> linkedlist, priority queue
+follows a FIFO approach  first in first out
+Elements adds at rear end and removes from the front end.
+----------------------------------------------------------------------------------------
+map interface is completely diffrent from collection familty its not coming from collection family
+map interface -> hashtable, hashmap, linkedhashmap, treemap all these tree interfaces implementing directly map interface only treemap first implementing sortedmap interface 
+and sortedmap interface is extending map interface
+Represents a key, value pair format
+ Map interface does not implement the Collection.
+It can only contain a unique key
+can have duplicate values 
+
+----------------------------------------------------------------------------------------
+object class -> Arrays, and collection class object class is parent class of arrays and collection
+
+----------------------------------------------------------------------------------------
+list -> is order base collaction interface it maintane the order, its dynamic array 
+
+set -> is cannot have duplicate elements
+
+queue -> means first in first out FIFO
+
+map -> store the value on the basis of key and value 
+
+iterator -> is used to itarete the values from order base and non order base collections
+
+----------------------------------------------------------------------------------------
+common exception while using collection framework 
+NullPointerException 
+ClassCastException
+IllegalArgumentException
+IllegalStateException
+UnsupportedOperationException  --> it can come when collection cannot be modified 
+----------------------------------------------------------------------------------------
+<<<<<<<ArrayList>>>>> is maintane the order 01234567 
+thats why random access is possible in arraylist, dublicate elements allow, null elements allow, its not thread safe 
+thread safe means lets say one thread works on on one object and that thread is preventing another thread to access and work on same thread 
+this process is called thread safety
+
+
+<<<<<<<<LinkedList>>>>> is maintane the order like arraylist but random access is not poosible in linkedlist because linkedlist is store the value in the basis of 
+nodes, linkedlist is also not thread safe
+differences between arraylist and linkedlist  random access is not possible in linkedlist and arraylist is implementing only list interface but linkedlist 
+is implementing list and queue interface both
+ LinkedList and ArrayList both not thread safe
+
+
+<<<<<<threeSet>>>>>> is only order base collection  no null value no dublicate no thread safety no key-value
+<<<<<<hashset>>>>>>> is only null element can take  no null value no dublicate no thread safety no key-value no order base 
+differennec between hashset and treeset is order base hashset is no 
+and in hashset null element storing is allowed but in threeSet no 
+
+
+
+                                 -------- DIFFERENCES --------
+                                 differences between hashset and linkedhashset is 
+                                 hashset is not maintaine the order lets say we created object of hashset and add it values 
+                                 while printing all the values from hashset the output it will be no order 
+                                 but linkedhashset is maintain the order indexing
+                                 treeSet also maintain the order 
+                                 
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                                   
+                                               
+
+
+
+
+
+
+
+
+
+
+
 A Set is a Collection that cannot contain duplicate elements. 
 It models the mathematical set abstraction. 
 The Set interface contains only methods inherited 

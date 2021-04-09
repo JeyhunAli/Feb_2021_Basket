@@ -28,6 +28,8 @@ public class IterateArrayList {
 	      al.add("BulagBashinda");
 	      al.add("Elinde Cay");
 		
+	     // System.out.println(al.get(-1));   //java.lang.ArrayIndexOutOfBoundsException: -1
+	      // -1 indexing is not allowed in arraylist
 	      
 	      // 1 typical for loop
 	      for(int i=0; i<al.size(); i++) {
