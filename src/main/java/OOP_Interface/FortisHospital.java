@@ -80,6 +80,7 @@ public class FortisHospital extends HospitalManagement implements USMedical, UKM
 	}
 	
 	//method hiding
+	
 	public static void billing() {
 		System.out.println("USM - billing");
 	}
