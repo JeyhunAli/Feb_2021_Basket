@@ -74,6 +74,11 @@ public class CustomXpath_1 {
 
 		
 		
+		
+//		if there are a lot of columns and each and every colummn has a lot of links 
+//		and you want to collect specific coulmn together with links use similar this type xpath
+//      (//div[contains(@class, 'navFooterLinkCol')])[1]//a		
+		
 	}
 
 }
