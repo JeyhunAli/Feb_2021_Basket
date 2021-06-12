@@ -37,6 +37,7 @@ public class CustomXpath_1 {
 		//htmltag[contains(@attr1,'value') and contains(@attr2='value')]
 		//input[contains(@name,'name') and contains(@type,'text')]
 		
+		
 		//contains() with text():
 		//htmltag[contains(text(),'value')]
 		//h2[contains(text(),'Refreshing')]
