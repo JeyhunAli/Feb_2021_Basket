@@ -8,7 +8,8 @@ public class DataTypesConcept {
 		// strict type:
 
 		// 1. primitive data types: dont need object to store the data
-		// 2. non primitive data types: Array, Object, String, Class, Interface
+		// 2. non primitive data types: Array, Object, String, Class, Interface 
+		//non primitive means where we store the data on form of object 
 
 		// primitive data types:
 		// 1. boolean type: boolean: true/false
