@@ -41,7 +41,7 @@ public class IncrementalAndDecrementalOperators {
 		System.out.println(f1);//-1000
 		System.out.println(f2);//-999
 		
-		//4. pre decrement:
+		//4. pre decrement: first give the atual value then decrement
 		int g1 = 2;
 		int g2 = --g1;
 		System.out.println(g1);//1
@@ -53,6 +53,13 @@ public class IncrementalAndDecrementalOperators {
 		System.out.println(d1);
 		System.out.println(d2);
 				
+		
+		int jj = -666;
+		int yy = jj--;
+		System.out.println(jj);// -667
+		System.out.println(yy);// -666
+		
+		//for string we cannot do mathematical operation
 		
 	}
 
