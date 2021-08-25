@@ -50,7 +50,13 @@ public class ConditionalOperators {
 
 //		< > <= >= == !=
 //		 if - if - if - if ....if
-
+/**
+ * this version is not recommended because 
+ * if - if - if - if ....if
+ * even if first condition satisfied 
+ * compiler will go and check all the condition unnecesessary 
+ * time 
+ */
 //		String browser = "chrome";
 //		
 //		if(browser.equals("chrome")) {
@@ -73,6 +79,15 @@ public class ConditionalOperators {
 //			System.out.println("please pass the right browser name....");
 //		}
 
+		
+		
+		
+		/**
+		 * but in this condition is works perfectly fine 
+		 * only one thing here lets say u one condition which is coming 
+		 * at the end of condition here is safari 
+		 * this statement it will check all the condition till end it wont jumb right into it 
+		 */
 		// if - else if -- else if
 
 		String browser = "safari";

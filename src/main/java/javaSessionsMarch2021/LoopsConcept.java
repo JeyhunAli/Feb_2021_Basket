@@ -47,6 +47,8 @@ public class LoopsConcept {
 		//System.out.println("hello world");
 		
 		//print from a to z:
+		//its not applicable for string 
+		//because string not part of the numeric family but char yes
 		for(char c='a'; c<='z'; c++) {
 			System.out.print(c);//a b
 		}
@@ -76,16 +78,13 @@ public class LoopsConcept {
 		
 		System.out.println("-------------");
 
-		//3. do-while:
-		int h = 1;
-		do {
-			System.out.println(h);//1
-			h++;
-		} 
-		while (h<=10);
 		
-		//4. for each
-		//5. streams -> sequential/parallel
+		String fruit = "cranberry";
+		char first = fruit.charAt(0);
+		char last = fruit.charAt(fruit.length()-1);
+		
+		System.out.println("first char " +first+ "" + " last char " + last );
+		
 		
 		
 	}

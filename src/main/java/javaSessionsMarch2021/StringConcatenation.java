@@ -38,6 +38,25 @@ public class StringConcatenation {
 		System.out.println(c1/c2);
 		System.out.println(c1*c2);
 		
+		char s = 's';
+		System.out.println(s+5);
+		
+		
+		
+		
+		for(char m= 'a'; m<='z'; m++) {
+			System.out.print(m + " ");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

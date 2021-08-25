@@ -23,6 +23,7 @@ public class LoopsConcept_2 {
 			//i++;
 			//i=i+1;
 			//i+=1;
+			//these three are same
 			++i;
 		}
 		
