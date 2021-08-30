@@ -12,6 +12,9 @@ public class CarDesign {
 	public static void main(String[] args) {
 
 		CarDesign c1 = new CarDesign();
+		
+		System.out.println("default value of class var: " + c1.name +" "+c1.color+" "+c1.mileage+" " +c1.price+ " "+c1.isLaunched+" "+c1.type);
+		
 		c1.name = "Audi";
 		c1.color = "white";
 		c1.price = 80;

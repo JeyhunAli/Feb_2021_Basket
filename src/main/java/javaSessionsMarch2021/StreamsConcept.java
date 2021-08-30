@@ -7,7 +7,8 @@ public class StreamsConcept {
 	
 	public static void main(String[] args) {
 		
-	
+	//streams came after jdk1.8 
+		//before that it wasmt there 
 	
 	ArrayList<String> empList = new ArrayList<String>();
 	empList.add("Ali");
@@ -45,18 +46,25 @@ public class StreamsConcept {
     System.out.println(ConsoleColors.BLUE_BOLD + "-----------");
     
     empList.parallelStream().forEach(employeeList -> System.out.println(employeeList));
+    
     //parallelStream is another stream class which is more faster than regular stream 
+    
     // use case for this lets say the count of the elements in selenium is thousand and over 
     // in that case we can use to achieve more performance more faster to get all the elements 
     // and parallelStream is not maintain the order 
+    
+    System.out.println("----------");
+    empList.parallelStream().forEach(e -> System.out.println(e));
+    
     
    
     //before adding stream function to the jdk 1.8 it wasn't available in java 
     // we could see them before in kotlin or scala 
     // one of the use case of using intStream iterator interface in selenium 
     //lets say we have requirement to get all the links, img,  available in webPage
-    
     // this actually Stream pipeline which is we can apply filters and get outcome as we wanted
+    
+    
     //default value of int is zero
     //default value of String is null
     //default value of double 0.0

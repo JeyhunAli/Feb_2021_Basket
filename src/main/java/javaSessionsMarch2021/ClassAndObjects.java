@@ -5,6 +5,7 @@ public class ClassAndObjects {
 	//object -- its a physical entity of the class
 	//its an instance of the class
 	//data members --> method, class variables
+	//for example human is class we are all objects 
 	
 	/**
 	 * some common class properties for entire class its better to declare them with their own values in class level 
@@ -12,7 +13,7 @@ public class ClassAndObjects {
 	 * and it also helping to save more memory capacity 
 	 * and of course its more helping performance of our script 
 	 * object cannot hold any static var in java 
-	 * when we create object it will store in heap memeory in java and reference pf the object will store inside 
+	 * when we create object it will store in heap memeory in java and reference of the object will store inside 
 	 * stack memeory 
 	 * but static var will be store in CMA/Meta Space/ permanent generation 
 	 * non static var will be store in heap memory 
