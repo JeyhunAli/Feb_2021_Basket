@@ -134,6 +134,37 @@ public class LoopsConcept_2 {
 			System.out.println();
 		}
 		
+		System.out.println("-------------------------");
+		
+		for(int m=0; m<=4; m++) {
+			for(int n=0; n<=4; n++) {
+				for(int o=0; o<=4; o++) {
+					System.out.print(m+""+n+""+o+" ");//00 01 
+				}
+				System.out.println();
+			}
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

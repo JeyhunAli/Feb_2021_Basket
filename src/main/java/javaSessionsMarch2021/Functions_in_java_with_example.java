@@ -27,8 +27,8 @@ public class Functions_in_java_with_example {
 	
 	
 	//this statement is improved but still some ares need to be improve 
-	//here if the student name is Sri it the condition will keep checking entire if else statement to reach sri 
-	// its not directly jumping on to the condition of where the name equal to Sri
+	//here if the student name is Srish it the condition will keep checking entire if else statement to reach srish
+	// its not directly jumping on to the condition of where the name equal to Srish
 	public int getStudentMarks(String studentName) {
 		System.out.println("student name is : " + studentName);
 
@@ -51,6 +51,16 @@ public class Functions_in_java_with_example {
 	//this method type not improved and not recomended
 	//this method has return type for each condition unnecessary
 	//here break statement not allowed
+	/**
+	 * 
+	 * this type of the method is having return statement for each and every 
+	 * condition even if u have this return type 
+	 * at the end it gonna ask one more return type of entire method as well 
+	 * because return type for condition and 
+	 * and return type for specific method is different to each other 
+	 * 
+	 * @return  shuld be last statment of the function
+	 */
 	public int getStudentMarksNotRecommended(String studentName) {
 		System.out.println("student name is : " + studentName);
 

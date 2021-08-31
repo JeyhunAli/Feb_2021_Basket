@@ -38,7 +38,7 @@ package javaSessionsMarch2021;
  * null value condition first to avoid null pointer exception 
  * 
  * Trying to access index outside string size-> we will get     StringIndexOutOfBoundsException
- *Trying to access any index outside the size of  String split method whic is returm type Array str[]
+ * Trying to access any index outside the size of  String split method which is returm type Array str[]
  * we will get  ArrayIndexOutOfBoundsException
  */
 

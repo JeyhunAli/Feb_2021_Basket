@@ -5,9 +5,9 @@ public class SwitchCaseConcept {
 	public static void main(String[] args) {
 
 		/**
-		 * but here is different from reqular if > if 
-		 * if > else if > else 
-		 * here condition is jumping rught away the case where statment is satified 
+		 * but here is different from reqular if > if, 
+		 * if > else, if > else 
+		 * here condition is jumping right away the case where statment is satified 
 		 * for example here browser safari 
 		 * and statement is coming at the end and it will right away jumping to safari not checking each and every 
 		 * condition 

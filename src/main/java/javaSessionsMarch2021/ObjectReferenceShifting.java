@@ -33,6 +33,7 @@ public class ObjectReferenceShifting {
 		shifting3.age = 33;
 		shifting3.gender = 'f';
 		
+		//we can create object without reference
 		//object without any reference 
 		new ObjectReferenceShifting().name = "Ali";
 		new ObjectReferenceShifting().age = 28;
