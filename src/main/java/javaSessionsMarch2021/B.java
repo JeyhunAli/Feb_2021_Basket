@@ -7,6 +7,8 @@ public class B {
 		System.out.println("B--main");
 		
 		A.main(args);
+		
+		//this will cause stackOverFlowerror 
 	}
 
 }

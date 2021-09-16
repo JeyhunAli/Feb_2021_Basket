@@ -8,14 +8,21 @@ public class DataTypesConcept {
 		// strict type:
 
 		// 1. primitive data types: dont need object to store the data
-		// 2. non primitive data types: Array, Object, String, Class, Interface
+		// 2. non primitive data types: Array, Object, String, Class, Interface 
+		//non primitive means where we store the data on form of object 
 
+		/**
+		 * java is not 100% object oriented language 
+		 * because even without any object we can create data in java 
+		 */
+		
+		
 		// primitive data types:
 		// 1. boolean type: boolean: true/false
 		// 2. Numeric Type:
 		// a. Character Value: char
 		// b. Integral Type:
-		// Integer: byte short int long
+		// Integer: byte, short, int, long
 		// Floating-type: float, double
 
 		// 1. byte:
@@ -85,20 +92,20 @@ public class DataTypesConcept {
 		System.out.println(5.0 / 2);
 		System.out.println(5.0 / 2.0);
 
-		System.out.println(0 / 9);
-		System.out.println(0 / 2000);
+		System.out.println(0 / 9);  //0
+		System.out.println(0 / 2000);  //0
 
-		// System.out.println(9/0);//ArithmeticException
-		System.out.println(9 / 0.0);// Infinity 
+		// System.out.println(9/0);  //ArithmeticException
+		System.out.println(9 / 0.0); // Infinity 
 
 		// String:
-		String str = "Hello World";
-		String s11 = "Hello World";
+		String str = "Hello World";   //these two string values are same even starting capital letter they are pinting one heap memory
+		String s11 = "Hello World";    // just beacuse values are same its not creating another string constant to point 
 		System.out.println(str);
 		System.out.println("1000");
 		System.out.println("hi this is my java code");
 
-		String s12 = "hello world";
+		String s12 = "hello world";   // but this starting small letter its pointing different string constant
 		String s13 = "1000";
 
 
