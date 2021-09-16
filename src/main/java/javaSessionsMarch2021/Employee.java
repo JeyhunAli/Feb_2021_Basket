@@ -1,7 +1,6 @@
 package javaSessionsMarch2021;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Employee {
 
@@ -24,6 +23,11 @@ public class Employee {
 		return empList;
 	}
 
+	
+	
+	//this  type of method is allowed in java 
+	//we just have return keyword but actually returning nothinng 
+	
 	public void getNumber() {
 		System.out.println("hi this is number 101");
 		return;
@@ -38,6 +42,7 @@ public class Employee {
 
 		e1.getEmpList().stream().forEach(ele -> System.out.println(ele));
 
+		//this method is void in nature even it has return keyword
 		e1.getNumber();
 		
 		

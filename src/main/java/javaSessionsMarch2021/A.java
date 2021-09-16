@@ -8,7 +8,7 @@ public class A {
 		
 		B.main(args);
 		
-		
+		//this will cause stackOverFlowerror 
 		
 		
 		
