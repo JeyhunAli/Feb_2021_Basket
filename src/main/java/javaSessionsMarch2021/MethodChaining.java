@@ -1,5 +1,13 @@
 package javaSessionsMarch2021;
 
+/**
+ * 
+ * @author jey
+ * within class we can call method inside another method without creating object
+ * static method also can be call inside to each other 
+ */
+
+
 public class MethodChaining {
 
 	String name = "chrome";
