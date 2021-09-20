@@ -4,8 +4,11 @@ public class EcommApp {
 
 	public EcommApp login() {
 		System.out.println("login to app");
-		return this;  // return this means return current class object thats why instead of void there class name 
-	}
+		return this;  // return this. ->  means return current class object thats why instead of void there class name 
+		              // check out advantages of this pattern next class 
+		              // its basically another way of using this keyword to build pattern
+	} 
+	
 
 	public EcommApp login(String un, String pwd) {
 		System.out.println("login to app with : " + un + ":" + pwd);

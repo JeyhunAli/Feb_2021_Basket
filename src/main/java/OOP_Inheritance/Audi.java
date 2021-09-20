@@ -4,9 +4,11 @@ public class Audi extends Car {
 	int max_speed = 200;
 	
 	
-	// can we override the parent class varIABLESs? THE ANSWER IS NO we in java
-	// there is no any concept
-	// same var in parent class and we can have them in child as well this calss ---> variable hiding
+	// can we override the parent class varIABLESs? THE ANSWER IS NO 
+	// override is applicable only for methods not for class var 
+	// lets say in parent class we have class var and we have class var in child class as well 
+	// at the runtime ot will pick child clas var its called variable hiding 
+	
 
 	// Method Overriding: Poly+Morphsim : Dynamic (RunTime)
 	// when we have method in the parent class and the same method in the child
@@ -23,6 +25,16 @@ public class Audi extends Car {
 	/**
 	 * final keyword is used to provide constant variables final is used to prevent
 	 * method overriding final is used to prevent inheritance
+	 * 
+	 * we cannot override static method in java because static methods should be accessed by class name not by creating object
+	 * 
+	 * method hiding means static method in parent class with the same signature in child class but not with overriden keyword 
+	 * consider as separate method this concept is method hiding 
+	 * 
+	 * Final keyword is used to provide constants variables 
+	 * Final keyword is used to prevent method overriden 
+	 * Final keyword is used to prevent inheritance 
+	 * 
 	 */
 	
 	
@@ -101,7 +113,7 @@ public class Audi extends Car {
 	 *         gonna give error Class cast exception Down casting we dont use
 	 * 
 	 * 
-	 *         Web driver driver = chrome driver this is top casting
+	 *         Webdriver driver = new chromedriver this is top casting
 	 * 
 	 *         It looks like we can put small box into large box top casting
 	 * 
@@ -148,5 +160,16 @@ public class Audi extends Car {
 	public static void steering() {
 		System.out.println("Audi -- steering");
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }

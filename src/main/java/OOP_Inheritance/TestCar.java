@@ -12,7 +12,7 @@ public class TestCar {
 		a.stop();// Inherited --> is inherited directly from parent class because child clss
 					// extending parent clss
 		a.refuel();// Inherited
-		a.autoParking();// Individual --> this is existing only in child class separete method
+		a.autoParking();// Individual --> this is available only in child class separete method
 		a.engine();
 		Audi.steering();
 		System.out.println(a.max_speed);
