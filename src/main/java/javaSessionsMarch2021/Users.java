@@ -9,7 +9,7 @@ public class Users {
 	// const... name is as same as the class name
 	// const.. will never return any value
 	// const.. has no return type
-	// functions --> for buss logic
+	// functions --> for bussiness logic
 	// const... -> is used to intialize the class vars
 	//const.. will be called when we create the object
 	//const.. can be overloaded

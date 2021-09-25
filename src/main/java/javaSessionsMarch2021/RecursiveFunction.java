@@ -32,3 +32,7 @@ public class RecursiveFunction {
  * 
  */
 
+
+// factorial number of 5  -> 5*4*3*2*1=120
+//fatorial of 1 = 1
+//factorial of 0 = 1

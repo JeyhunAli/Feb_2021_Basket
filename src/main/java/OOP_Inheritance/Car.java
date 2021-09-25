@@ -19,6 +19,10 @@ public class Car extends Vehicle{
 		System.out.println("car -- steering");
 	}
 	
+	//final methods cannot be overriden 
+	public final void cruzeControl() {
+		System.out.println("car -- cruzeControl");
+	}
 	
 	
 	
