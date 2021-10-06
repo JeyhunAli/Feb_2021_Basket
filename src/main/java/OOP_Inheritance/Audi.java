@@ -7,7 +7,7 @@ public class Audi extends Car {
 	// can we override the parent class varIABLESs? THE ANSWER IS NO 
 	// override is applicable only for methods not for class var 
 	// lets say in parent class we have class var and we have class var in child class as well 
-	// at the runtime ot will pick child clas var its called variable hiding 
+	// at the runtime it will pick child clas var its called variable hiding concept
 	
 
 	// Method Overriding: Poly+Morphsim : Dynamic (RunTime)
@@ -22,10 +22,10 @@ public class Audi extends Car {
 	// static methods can be overloaded
 	// final methods can not be overridden
 	// final class can not be inhertited/ can not be a parent class
+	
+	
 	/**
-	 * final keyword is used to provide constant variables final is used to prevent
-	 * method overriding final is used to prevent inheritance
-	 * 
+	 *
 	 * we cannot override static method in java because static methods should be accessed by class name not by creating object
 	 * 
 	 * method hiding means static method in parent class with the same signature in child class but not with overriden keyword 
