@@ -1,5 +1,8 @@
 package october_2021_selenium;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -31,7 +34,30 @@ public class ElementUtil {
 		}
 		return element;
 	}
-
+	
+	
+	
+	
+	/**
+	 * this method is returning list of elements 
+	 * @param locator
+	 * @return 
+	 * @return
+	 */
+	public List<WebElement> getElements(By locator) {
+		 List<WebElement> elements = null;
+		try {
+			 elements = driver.findElements(locator);
+		}
+		catch (Exception e) {
+			System.out.println("some exception occured...");
+		}
+		return elements;
+		
+	}
+	
+	
+	
 	
 	/**
 	 * This method is used to click on element
@@ -88,14 +114,47 @@ public class ElementUtil {
 		return driver.getTitle();
 	}
 
+	/**
+	 * this method will give you all the links with text
+	 * @param locator
+	 * @return
+	 */
+	public List<String> getElementsTextList(By locator) {
+		List<WebElement> eleList = getElements(locator);
+		List<String> eleTextList = new ArrayList<String>();
+		for(WebElement e : eleList) {
+			String text = e.getText();
+			if(!text.isEmpty()) {
+				eleTextList.add(text);
+			}
+		}
+		return eleTextList;
+	}
 	
+	/**
+	 * getting all elements with text 
+	 * using stream and calling internally method which is written with for each and list ArrayList
+	 */
+	public void getLinksWith_Stream(By locator) {
+		getElementsTextList(locator).stream().forEach(e -> System.out.println(e));
+		
+	}
 	
-	
-	
-	
-	
-	
-	
+	/**
+	 * this method is used to get attribute of the elements;
+	 * @param locator
+	 * @param attr
+	 * @return 
+	 */
+	public  String getAttributeList(By locator, String attr) {
+		List<WebElement> attrList = getElements(locator);
+            for (int i = 0; i < attrList.size(); i++) {
+			String srcVal = attrList.get(i).getAttribute(attr);
+			System.out.println(srcVal);
+		   }
+			return attr;
+           
+	}
 	
 	
 	

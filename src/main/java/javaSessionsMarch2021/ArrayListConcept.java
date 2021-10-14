@@ -1,7 +1,6 @@
 package javaSessionsMarch2021;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class ArrayListConcept {
 
