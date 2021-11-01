@@ -35,11 +35,11 @@ public class LinkHrefList {
 
 	}
 
-	public static void getAttributeList(By locator, String attr) {
-		List<WebElement> attrList = driver.findElements(locator);
+	public static void getAttributeList(By locator, String attribute) {
+		List<WebElement> attributeList = driver.findElements(locator);
 
-		for (int i = 0; i < attrList.size(); i++) {
-			String srcVal = attrList.get(i).getAttribute(attr);
+		for (int i = 0; i < attributeList.size(); i++) {
+			String srcVal = attributeList.get(i).getAttribute(attribute);
 			System.out.println(srcVal);
 		}
 	}

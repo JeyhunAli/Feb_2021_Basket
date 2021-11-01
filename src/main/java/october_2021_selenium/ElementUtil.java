@@ -146,13 +146,13 @@ public class ElementUtil {
 	 * @param attr
 	 * @return 
 	 */
-	public  String getAttributeList(By locator, String attr) {
-		List<WebElement> attrList = getElements(locator);
-            for (int i = 0; i < attrList.size(); i++) {
-			String srcVal = attrList.get(i).getAttribute(attr);
+	public  String getAttributeList(By locator, String attribute) {
+		List<WebElement> attributeList = getElements(locator);
+            for (int i = 0; i < attributeList.size(); i++) {
+			String srcVal = attributeList.get(i).getAttribute(attribute);
 			System.out.println(srcVal);
 		   }
-			return attr;
+			return attribute;
            
 	}
 	
